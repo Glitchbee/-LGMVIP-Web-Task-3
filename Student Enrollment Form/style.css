@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: .5em;
+    font-size: 2.2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: #111;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-size: 16px;
+    background-color: #90e0ef;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 1em;
+    margin-left: 1em;
+    display: flex;
+}
+
+.ip-container {
+    width: 50%;
+    margin-left: 2em;
+    font-size: 1.2rem;
+}
+
+form,
+div {
+    margin: 1.8em 0;
+    position: relative;
+}
+
+.ip-style {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.lbl-male {
+    margin: 0 1em;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 1em;
+}
+
+
+.btn-sub {
+    border: none;
+    padding: 0.75em 1em;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 1em;
+    background-color: #0096c7;
+    cursor: pointer;
+}
+
+.btn-del {
+    border: none;
+    padding: 0.75em 2em;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ef233c;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+
+.seperate {
+    width: 60%;
+    height: 100;
+    border-left: 2px solid black;
+}
+
+.data-container {
+    background: #f0a6ca;
+    border: none;
+    width: 60%;
+    height: 60%;
+    margin: 4em auto;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 1em;
+}

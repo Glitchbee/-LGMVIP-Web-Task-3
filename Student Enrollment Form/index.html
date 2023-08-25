@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Endrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Endrollment Form</h1>
+    <div class="container">
+        <div class="ip-container">
+            <form action="">
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" class="ip-style" type="text" placeholder="  Enter your name" required>
+                </div>
+
+                <div>
+                    <label for="mail">Email:</label>
+                    <input id="mail" class="ip-style" type="email" placeholder="  Enter your e-mail" required>
+                </div>
+
+                <div>
+                    <label for="web">Website:</label>
+                    <input id="web" class="ip-style" type="text" placeholder="---Optional---" required>
+                </div>
+
+                <div>
+                    <label class="gender">Gender:</label>
+                    <span class="lbl-male">
+                        <input id="male" type="radio" placeholder="Add profile link" name="SEX">
+                        <label for="male">Male</label>
+                    </span>
+                    <input id="female" type="radio" placeholder="Add profile link" name="SEX">
+                    <label for="female">Female</label>
+                </div>
+
+                <div>
+                    <label for="skill">Skills:</label>
+                    <select id="skill">
+                        <option value="choose" selected>---choose---</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="Java">Java</option>
+                    </select>
+                </div>
+
+                <button class="btn-sub">Enroll Student</button>
+                <button class="btn-del">Clear</button>
+            </form>
+        </div>
+        <div class="seperate">
+            <h2>Endrolled Students</h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
